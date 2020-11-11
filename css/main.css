@@ -1,0 +1,266 @@
+/* Font and box styling for different tag elements */
+
+body {
+ background-color: black;
+	font-family: helvetica, sans-serif;
+	font-size: 1em;
+	margin:0;
+
+}
+
+#top {
+	background-color:black;
+}
+
+h1,h2,h3 {
+	margin:0;
+}
+
+h1 {
+	font-size:2em;
+	font-family: helvetica, sans-serif;
+
+}
+
+h2{
+	font-size:1.6em;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+}
+h3{
+	font-size:1.2em;
+	font-family: helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+p, ul, ol {
+	font-size: 1.1em;
+	text-align: left;
+	font-family: Verdana, sans-serif;
+}
+
+ul, ol {
+	margin:0;
+	padding-left:1.5em;
+
+}
+
+img{
+	height:auto;
+	width:auto;
+	max-width:100%;
+}
+
+.hd1{
+	font-size: 2.6rem;
+	font-family: helvetica, sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	color:white;
+	margin:0;
+	border-bottom-style: solid;
+	border-width:1px;
+	border-color: white;
+	padding-left:.5em;
+
+}
+
+.hd2{
+	font-size: 1.3rem;
+	padding-right:10px;
+	padding-bottom:.2rem;
+	color: #778899;
+	margin-bottom:0;
+	font-variant: small-caps;
+	border-style: none;
+
+}
+
+.markup, .markup-indent {
+	margin:0;
+	font-size:0.9em;
+	font-family: Verdana, sans-serif; font-weight: 300;
+}
+
+.markup-indent {
+	text-indent:20px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #C0C0C0;
+	background-color: black;
+	width:20%;
+	opacity:90%;
+
+}
+
+.nav li {
+	float: center;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 35px;
+	text-decoration: none;
+	cursor:pointer;
+
+}
+
+li a.active {
+    color: white;
+	border-bottom:4px solid #C0C0C0;
+}
+li a:hover{
+	color: #C0C0C0;
+
+}
+
+a {
+	font-family: helvetica, sans-serif; font-weight: 400;
+	font-size: 1em;
+	line-height: 1.3em;
+	text-align: left;
+	text-decoration:none;
+	color:#8789C0;
+	transition: all .2s ease-in-out;
+}
+
+#grow:hover{
+	font-size:110%;
+}
+
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: .6em 1.8em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	border:2px solid #778899;
+	color:black;
+}
+
+button:hover{
+	background-color:#778899;
+	color:white;
+}
+
+input[type=text] {
+	width: 20%;
+	display:inline-block;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+	background-color: white;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+}
+
+.listing {
+	border: thin silver solid;
+	margin: 0.5em;
+	padding: 0.5em;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+}
+
+.listing a {
+	padding:5px;
+	text-align: center;
+}
+
+.listing a, .listing a:visited {
+	text-decoration:none;
+	color:black;
+}
+
+.grid-row {
+	display:block;
+	background-color: #fff;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color:#778899;
+	padding:25px;
+}
+
+.grid-row-markup {
+	font-family: helvetica, sans-serif; font-weight: 300;
+	padding: 10px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: #c0c0c0;
+	background-color: #c0c0c0;
+}
+
+.grid-structure{
+	border: 1px solid black;
+	text-align:center;
+}
+
+.color-container{
+	height:4em;
+	width:4em;
+}
+
+.container{
+	margin:1em;
+	padding-left:2em;
+	padding-right:2em
+}
+
+.image-link {
+	position: relative;
+	width: 30%;
+	cursor:pointer;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(0, 0, 0, 0.678);
+}
+
+.image-link:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 1.6em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	text-transform: uppercase;
+
+}

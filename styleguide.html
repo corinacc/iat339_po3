@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Style Guide</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+
+  </head>
+
+  <body>
+    <header id="top">
+      <!-- Creating a class for the title to reserve h1-> h5 for heading levels section -->
+      <p class= "hd1"> style guide </p>
+    </header>
+
+
+
+
+    <div class="container">
+    <!-- TYPOGRAPHY -->
+
+    <!-- In-text link -->
+    <p class="hd2"> in-text link </p>
+    <div class="grid-row">
+      <a href ="#"id="grow"> In-text link </a>
+    </div> <!-- end of row for in-text link -->
+
+    <!-- In-text link markup -->
+    <div class="grid-row-markup">
+      <p class="markup"> &lt;a href ="http://google.ca"&gt; &lt;p&gt; In-text link&lt;/a&gt; </p>
+    </div> <!-- end of row for in-text link markup -->
+
+    <!--Button Style -->
+    <p class="hd2"> button </p>
+    <div class="grid-row">
+      <div class="grid-col-2of10">
+        <button> Button </button>
+      </div>
+    </div> <!-- end of row for navigation button style -->
+
+    <!--Button Style markup -->
+    <div class="grid-row-markup">
+      <p class="markup"> &lt;a href ="#" class="button-nav"&gt; Button &lt;/a&gt;</p>
+    </div> <!-- end of row for navigation button style markup -->
+
+    <p class="hd2"> headings </p>
+    <!-- A heading level for each row with details such as name,size, weight in different columns -->
+     	<div class="grid-row">
+	    	<div class = "grid-col-2of10">
+	    		<h1> Heading 1 </h1>
+	    	</div>
+	    	<div class = "grid-col-2of10">
+	    		<p> Helvetica (2em) </p>
+	    	</div>
+   		</div> 	<!-- end of grid-row  -->
+
+     	<div class="grid-row">
+	    	<div class = "grid-col-2of10">
+	    		<h2> Heading 2 </h2>
+	    	</div>
+	    	<div class = "grid-col-2of10">
+	    		<p> Helvetica(1.6em) </p>
+	    	</div>
+
+   		</div> <!-- end of grid-row  -->
+
+     	<div class="grid-row">
+	    	<div class = "grid-col-2of10">
+	    		<h3> Heading 3 </h3>
+	    	</div>
+	    	<div class = "grid-col-2of10">
+	    		<p> Helvetica (1.2em) </p>
+	    	</div>
+      </div> <!--end of grid-row -->
+
+      <!-- Section for headings markup -->
+      <div class = "grid-row-markup">
+        <p class ="markup"> &lt;h1&gt; Heading 1 &lt;/h1&gt;</p>
+        <p class ="markup"> &lt;h2&gt; Heading 2 &lt;/h2&gt;</p>
+        <p class ="markup"> &lt;h3&gt; Heading 3 &lt;/h3&gt;</p>
+   		</div> 		<!-- end of section for headings markup -->
+
+
+    <!-- Visual styling for paragraphs -->
+    <p class="hd2"> default paragraph styling </p>
+
+    <div class="grid-row">
+      <div class="grid-col-3of10">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est
+        </p>
+      </div>
+    </div> <!-- end of grid-row for paragraph styling -->
+      <div class = "grid-row-markup">
+        <p class ="markup"> &lt;p&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est &lt;/p&gt;</p>
+    </div>
+
+    <!-- Visual Styling for unordered/ordered lists using 2 columns in a grid row-->
+    <!-- Using unordered and ordered list tags -->
+
+    <!-- Bulletted list -->
+    <p class="hd2"> Bullet list </p>
+    <div class="grid-row">
+      <div class="grid-col-2of10">
+        <ul>
+          <li> Item A </li>
+          <li> Item B </li>
+          <li> Item C </li>
+        </ul>
+      </div>
+
+    </div> <!-- end of row for ordered list -->
+
+    <!-- Markup for bulletted list -->
+    <div class = "grid-row-markup">
+      <p class ="markup"> &lt;ul&gt;</p>
+      <p class="markup-indent">
+          &lt;li&gt; Item A &lt;/li&gt;</p>
+          <p class="markup-indent">
+          &lt;li&gt; Item B &lt;/li&gt;
+      </p>
+      <p class="markup-indent">
+          &lt;li&gt; Item C &lt;/li&gt;
+      </p>
+      <p class ="markup"> &lt;/ul&gt; </p>
+    </div> <!-- end of row for ordered list markup -->
+
+    <!-- Ordered List -->
+    <p class="hd2"> numbered list </p>
+    <div class="grid-row">
+      <div class="grid-col-2of10">
+        <ol>
+          <li> Item A</li>
+          <li> Item B</li>
+          <li> Item C </li>
+        </ol>
+      </div>
+    </div> <!-- end of row for un-ordered list -->
+
+    <!-- Ordered list markup -->
+    <div class = "grid-row-markup">
+      <p class ="markup">&lt;ol&gt; </p>
+      <p class ="markup" style ="text-indent:20px">
+          &lt;li&gt; Item A &lt;/li&gt;
+      </p>
+      <p class ="markup" style ="text-indent:20px">
+          &lt;li&gt; Item B &lt;/li&gt;
+      </p>
+      <p class ="markup" style ="text-indent:20px">
+          &lt;li&gt; Item C &lt;/li&gt;
+      </p>
+      <p class ="markup"> &lt;/ol&gt;</p>
+    </div> <!-- end of row for un-ordered list markup-->
+
+
+
+    <!--Text input and label -->
+    <p class="hd2"> text input and label </p>
+    <div class="grid-row">
+        <input type="text" name="search" placeholder="Search..">
+    </div> <!-- end of row for text input and label -->
+
+    <!--Text input and label markup-->
+    <div class="grid-row-markup">
+        <p class="markup"> &lt;input type="text" name="search" placeholder="Search.."&gt;</p>
+    </div> <!-- end of row for text input and label markup -->
+
+    <!-- Navigation Bar -->
+    <p class="hd2"> navigation bar </p>
+    <div class="grid-row">
+      <ul class="nav">
+        <li><a class="active" href="#">HOME(name)</a></li>
+        <li><a >ABOUT</a></li>
+        <li><a >WORKS</a></li>
+        <li><a >CONTACT</a></li>
+
+      </ul>
+    </div><!-- end of row for navigation bar -->
+
+    <!-- Navigation bar markup -->
+    <div class="grid-row-markup">
+      <p class="markup"> &lt;ul class="nav"&gt; </p>
+      <p class="markup-indent"> &lt;li&gt;&lt;a class="nav" href="#"&gt;HOME &lt;/a&gt;&lt;/li&gt; </p>
+
+      <p class="markup-indent"> &lt;li&gt;&lt;a class="nav" href="#"&gt;ABOUT&lt;/a&gt;&lt;/li&gt; </p>
+      <p class="markup-indent"> &lt;li&gt;&lt;a class="nav" href="#"&gt;WORKS&lt;/a&gt;&lt;/li&gt; </p>
+      <p class="markup-indent"> &lt;li&gt;&lt;a class="nav" href="#"&gt;CONTACT&lt;/a&gt;&lt;/li&gt; </p>
+      <p class="markup"> &lt;/ul&gt; </p>
+    </div> <!-- end of row for navigation bar markup -->
+
+
+
+
+    <!-- Image example -->
+    <p class="hd2"> image link</p>
+    <div class="grid-row">
+      <div class="image-link">
+          <img src="img/holland park2.png" alt="Image" class="image">
+          <div class="overlay">
+              <div class="text">View Project Details</div>
+           </div>
+      </div>
+    </div>
+
+
+
+    <!--Website grid structure-->
+    <p class="hd2"> grid structure</p>
+    <div class="grid-row">
+        <div class="grid-col-2of10"><p class="grid-structure">1</p></div>
+        <div class="grid-col-2of10"><p class="grid-structure">2</p></div>
+        <div class="grid-col-2of10"><p class="grid-structure">3</p></div>
+        <div class="grid-col-2of10"><p class="grid-structure">4</p></div>
+        <div class="grid-col-2of10"><p class="grid-structure">5</p></div>
+
+    </div> <!-- end of website grid structure-->
+
+    <!--Website grid structure markup-->
+    <div class="grid-row-markup">
+        <p class="markup">&lt;div class="grid-structure"&gt;&lt;p class="grid-structure"&gt;1&lt;/p&gt;&lt;/div&gt;</p>
+        <p class="markup">&lt;div class="grid-structure"&gt;&lt;p class="grid-structure"&gt;2&lt;/p&gt;&lt;/div&gt;</p>
+        <p class="markup">&lt;div class="grid-structure"&gt;&lt;p class="grid-structure"&gt;3&lt;/p&gt;&lt;/div&gt;</p>
+        <p class="markup">&lt;div class="grid-structure"&gt;&lt;p class="grid-structure"&gt;4&lt;/p&gt;&lt;/div&gt;</p>
+        <p class="markup">&lt;div class="grid-structure"&gt;&lt;p class="grid-structure"&gt;5&lt;/p&gt;&lt;/div&gt;</p>
+        <p class="markup">&lt;div class="grid-structure"&gt;&lt;p class="grid-structure"&gt;6&lt;/p&gt;&lt;/div&gt;</p>
+
+    </div> <!-- end of website grid structure markup-->
+
+    <!--Website Colour Swatches-->
+    <p class="hd2"> colour swatches</p>
+    <div class="grid-row">
+          <div class="color-container" style=background-color:#000000></div>
+          <div class="color-container" style=background-color:#FFFFFF></div>
+          <div class="color-container" style=background-color:#C0C0C0></div>
+          <div class="color-container" style=background-color:#778899></div>
+    </div> <!-- end of website colour swatches-->
+
+    <!--Website Colour Swatch markup-->
+    <div class="grid-row-markup">
+        <p class="markup">&lt;div class="color-container" style=background-color:#000000 &gt;&lt;/div&gt;</p>
+        <p class="markup">&lt;div class="color-container" style=background-color:#FFFFFF &gt;&lt;/div&gt;</p>
+        <p class="markup">&lt;div class="color-container" style=background-color:#C0C0C0 &gt;&lt;/div&gt;</p>
+        <p class="markup">&lt;div class="color-container" style=background-color#778899 &gt;&lt;/div&gt;</p>
+
+    </div> <!-- end of website colour swatch markup-->
+
+  </div>
+  </body>
+</html>
