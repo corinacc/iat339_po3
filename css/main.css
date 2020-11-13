@@ -2,14 +2,42 @@
 
 body {
  background-color: black;
-color: white;
+ color: white;
 	font-family: helvetica, sans-serif;
 	font-size: 1em;
 	margin:0;
 
 }
 
+header {
+    width:100%
+}
+.divider {
+    background-color:black;
+    height:2.5px;
+    width:100%;
+}
+.content {
+    display:block;
+    background-color:white;
+}
+.banner{
+    min-height: 42px;
+    background-color:black;
+    margin:0 auto;
+    position:relative;
+    white-space:nowrap;
+}
+.container{
+    max-width:1138px;
+    margin: 0 auto;
+    position:relative;
+	padding:0 21px;
+	padding-top:10px;
+}
+
 #top {
+	padding:30px;
 	background-color:black;
 }
 
@@ -29,12 +57,13 @@ h1 {
 h2{
 	font-size:1.6em;
 	font-family: helvetica, sans-serif;
-	font-weight: bold;
+  text-transform: uppercase;
 }
 h3{
 	font-size:1.2em;
 	font-family: helvetica, sans-serif;
-	text-transform: uppercase;
+  font-weight: bold;
+
 }
 
 p, ul, ol {
@@ -83,7 +112,7 @@ img{
 .markup, .markup-indent {
 	margin:0;
 	font-size:0.9em;
-	font-family: Verdana, sans-serif; font-weight: 300;
+	font-family: Helvetica, sans-serif; font-weight: 300;
 }
 
 .markup-indent {
@@ -93,32 +122,30 @@ img{
 .nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-    border: 1px solid #C0C0C0;
-	background-color: black;
-	width:20%;
-	opacity:90%;
+
+  	opacity:90%;
 
 }
 
 .nav li {
-	float: center;
+	float: left;
+
 }
 
 li a {
     display: block;
     color:white;
     text-align: center;
-    padding: 14px 35px;
-	text-decoration: none;
-	cursor:pointer;
+    padding: 14px 80px;
+  	text-decoration: none;
+	 cursor:pointer;
 
 }
 
 li a.active {
     color: white;
-	border-bottom:4px solid #C0C0C0;
+	border-bottom:4px solid #778899;
 }
 li a:hover{
 	color: #C0C0C0;
@@ -234,6 +261,7 @@ input[type=text] {
 	position: relative;
 	width: 30%;
 	cursor:pointer;
+  margin:15px;
 }
 
 .image {
@@ -270,4 +298,45 @@ input[type=text] {
 	text-align: center;
 	text-transform: uppercase;
 
+}
+
+.splash-image {
+	display:flex;
+}
+
+#splash{
+	display:flex;
+	width:100%;
+	filter:brightness(40%);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -75%);
+	display:flex;
+	flex-direction:column;
+}
+
+#about-content, #idk-content, #portfolio-content{
+	display:flex;
+	flex-direction: column;
+	align-content:center;
+	align-items:center;
+	text-align:center;
+  border-bottom: 4px solid white;
+	padding: 100px 0;
+}
+#h2-test{
+	font-size: 1.1em;
+	color: #CADFF4;
+}
+#bio {
+ max-width:540px;
+ color:white;
+	text-align:center;
+}
+#idk-content{
+	height:450px;
+	background-color:#08090A;
 }

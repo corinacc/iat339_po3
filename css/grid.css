@@ -8,10 +8,50 @@
 	box-sizing: border-box;
 }
 
+div{
+    display:block;
+}
+
+.container-flex{
+    display:flex;
+    /*flex-wrap:wrap;*/
+}
+
+.container-flex-center{
+    margin-top:50px;
+    margin-bottom:80px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.container-flex-split{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.container-flex-col{
+    display:flex;
+    flex-direction:column;
+}
+
+.header-flex {
+    align-items:center;
+    justify-content: space-between;
+}
+
+.flex-item, .flex-item-search {
+    display:flex;
+    align-items:center;
+    white-space:nowrap;
+}
+
 /*Here we are using a 'fancy' css selector that is specifying if the class of an item starts with 'grid-col-', then we should apply the styling listed */
 [class^='grid-col-'] {
 	float: left;
-	padding: 0; 
+	padding: 0;
 	text-align:center;
 }
 
@@ -104,5 +144,3 @@
 		margin-bottom:0;
 	}
 }
-
-
