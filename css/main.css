@@ -75,12 +75,14 @@ p.about-me-link{
 }
 
 .nav-bar{
+
   position: fixed;
   width: 100%;
   z-index: 1;
 }
 
 .main-nav{
+
   padding: 0;
   top: 0;
   background: black;
@@ -113,6 +115,11 @@ p.about-me-link{
   transition: .2s ease-out;
   transition-timing-function: ease-in-out;
 }
+
+.main-nav .icon {
+  display: none;
+}
+
 .main-nav img{
   max-width: 30px;
 }
@@ -664,3 +671,28 @@ opacity: 1;
   margin: 0rem 6rem 3rem 0;
   text-align: center;
 }
+/*
+
+@media screen and (max-width: 600px) {
+  .main-nav a:not(:first-child) {display: none;}
+
+  .main-nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-nav.responsive {position: relative;}
+
+  .main-nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .main-nav .responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} */

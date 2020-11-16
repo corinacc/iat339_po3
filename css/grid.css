@@ -63,6 +63,9 @@
 @media (min-width: 23em) {
   .nav-bar {
     position: absolute; }
+
+
+
   .main-nav img {
     padding-bottom: 0.5rem;
     width: 20%;
@@ -206,7 +209,7 @@
     margin-left: 4rem;
     text-align: center; }
   .grid-item {
-    width: 50%; }
+    width: 30%; }
   img.app-static {
     width: 50%; }
   img.gif-img2 {
@@ -327,7 +330,8 @@
   .grid-item {
     width: 30%; }
   .item1 {
-    margin-top: 0rem; }
+    margin-top: 0rem;
+   }
   img.prj-img {
     width: 72%; }
   h3 {
