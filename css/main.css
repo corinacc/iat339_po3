@@ -592,11 +592,12 @@ opacity: 1;
 }
 
 .proj-analysis{
+
   margin: auto;
   margin-top: 5rem;
   margin-bottom: 5rem;
   padding: 5rem;
-  background: white;
+  background: black;
   border-radius: 10px;
 }
 
