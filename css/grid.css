@@ -144,6 +144,7 @@
   .process {
     margin-top: 2rem;
     text-align: center; }
+
   img.magzine-about {
     width: 80%; }
   .image-figure {
@@ -226,7 +227,11 @@
     width: 420px;
     height: 235px; }
   .item3-text {
-    padding-bottom: 1.5rem; } }
+    padding-bottom: 1.5rem; }
+
+        .proj-text p{
+          font-size:0.8rem }
+ }
 
 @media (min-width: 44.125em) {
   .item2-text {
@@ -279,8 +284,9 @@
     width: 560px;
     height: 315px; }
   .proj-text {
-    margin-left: 3rem;
-    margin-right: 3rem; }
+    margin-left: 1rem;
+    margin-right: 1rem; }
+
   .list2 {
     margin-left: 3rem; }
   .process-text {
@@ -349,7 +355,11 @@
     margin-right: 8.5rem; }
 
   .item3-text {
-    padding-bottom: 1.6rem; } }
+    padding-bottom: 1.6rem; }
+    .proj-text p {
+    font-size: 1rem;
+  }
+}
 
 @media (min-width: 96.75em) {
   .item1 img {
