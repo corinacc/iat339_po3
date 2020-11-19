@@ -428,13 +428,13 @@ img.about-image{
   margin-bottom: 0;
 }
 
-.arrow-item{
+/* .arrow-item{
   text-align: center;
 }
 
 .arrow-item img{
   width: 30%;
-}
+} */
 
 .proj-list{
   margin-left: 16rem;
@@ -531,7 +531,6 @@ img.about-image{
 
 .item1{
   width:100%;
-  overflow: hidden;
 }
 .item1 img{
 
@@ -565,7 +564,11 @@ img.about-image{
   right: 0;
   /*margin-top: 2rem;*/
 }
-
+.main-footer p{
+  font-size: 0.8rem;
+  text-align: center;
+  color:black;
+}
 .footer{
   overflow: hidden;
   width: 100%;
@@ -580,7 +583,6 @@ img.about-image{
 .footer-item{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 3rem;
   letter-spacing: 5px;
   letter-spacing: 3px;
   margin: .1em;
