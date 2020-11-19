@@ -318,9 +318,6 @@
   img.about-image {
     width: 45%;
     margin-left: 5rem; }
-    img.item1 {
-       object-fit:100% 40%;
-      margin-bottom: -1.4rem; }
   p.about-me {
     padding: 0;
     padding-top: 1.7rem;
