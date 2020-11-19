@@ -236,13 +236,15 @@ p.about-me-link{
   text-align: left;
 }
 
+
 /* Styling for listing bullet points */
 .bullet-list{
-  display: block;
+  display: white;
   list-style: circle;
 }
 
 .bullet-list li{
+  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   padding: 0.5rem;
@@ -619,9 +621,10 @@ opacity: 1;
   // margin-top: 1em;
 }
 
-.proj-analysis .gif-img img{
+/* .proj-analysis .gif-img img{
   margin-top: -5rem;
-}
+} */
+
 
 .button-prj{
   margin-top: 3rem;
@@ -640,10 +643,10 @@ opacity: 1;
   letter-spacing: 0.05em;
 }
 
-.gif-img2{
+/* .gif-img2{
   text-align: center;
   margin-left: 6rem;
-}
+} */
 
 .caption{
   font-family: "Roboto", sans-serif;
