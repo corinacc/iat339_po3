@@ -403,6 +403,11 @@ background-color: black;
   color:black;
   text-transform: uppercase;
 }
+.about-container h3{
+  color:black;
+  text-align: center;
+  text-transform: uppercase;
+}
 .about-container p{
   color:black;
 }
@@ -524,14 +529,21 @@ img.about-image{
   width: 100%;
 }
 
+.item1{
+  width:100%;
+  overflow: hidden;
+}
 .item1 img{
   /* width: 100%;
-  margin-top: -1.5rem;
-  margin-bottom: -1rem; */
-opacity: 1;
+  height: 200px; */
+  object-fit: cover;
+  width: 300px;
+  height: 175px;
+
+ opacity: 1;
  display: block;
- width: 100%;
- height: auto;
+ /* width: 100%;
+ height: 40%; */
  transition: .5s ease;
  backface-visibility: hidden;
 }

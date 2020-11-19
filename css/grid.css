@@ -203,6 +203,7 @@
     width: 80%;
     margin: 0; }
   .item1 {
+
     margin-top: 0.5rem; }
   .about-container p {
     /*padding: 3rem;*/ }
@@ -317,6 +318,9 @@
   img.about-image {
     width: 45%;
     margin-left: 5rem; }
+    img.item1 {
+       object-fit:100% 40%;
+      margin-bottom: -1.4rem; }
   p.about-me {
     padding: 0;
     padding-top: 1.7rem;
@@ -352,4 +356,5 @@
 
 @media (min-width: 96.75em) {
   .item1 img {
+     object-fit:100% 40%;
     margin-bottom: -1.4rem; } }
